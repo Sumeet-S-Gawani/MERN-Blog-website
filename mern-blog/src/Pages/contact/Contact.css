@@ -1,0 +1,61 @@
+.contact{
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, rgba(0,0,0,0.1), rgba(0,0,0,0.1)),  url('../../blogImages/contactImg.jpeg') no-repeat no-repeat center center/cover;
+}
+
+.contactTitle{
+  font-size: 50px;
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
+
+.contactForm{
+  margin-top: 20px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.contactForm > label{
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+.contactInput{
+  padding: 15px 10px ;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.contactMsg {
+  padding: 15px 10px ;
+  height: 100px;
+  resize: none;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.contactButton{
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,86 @@
+.writePage{
+  padding-top: 50px;
+  position: relative;
+
+}
+
+.writepageImg{
+  margin-left: 220px;
+  width: 70%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.writepageTitle{
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
+
+.writePageFormGroup{
+  margin-left: 220px;
+  display: flex;
+  align-items: center;
+}
+
+.writePageIcon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+
+.writePageInput{
+  font-size: 24px;  
+  width: 70%;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.writePageText{
+  height: 50vh;
+  resize: none;
+  margin-left: 40px;
+  margin-top: 1rem;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.writePageSubmit{
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  padding: .8rem;
+  background-color: teal;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 2px;
+  transition: all .5s ease;
+  box-shadow: 3px 3px 0  #333;
+  transform: translate(-4px,-4px);
+}
+
+.writePageSubmit:hover{
+  transform: translate(0px,0px);
+  box-shadow: 0px 0px 0  #333;
+}
+
+
+

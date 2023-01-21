@@ -1,0 +1,78 @@
+.loginPage{
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('https://images.pexels.com/photos/1464880/pexels-photo-1464880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat no-repeat center center/cover;
+}
+
+.loginPageTitle{
+  font-size: 50px;
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
+
+.loginPageForm{
+  margin-top: 20px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.loginPageForm > label{
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+.loginPageInput{
+  padding: 15px 10px ;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.loginPageButton{
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.loginPageButton:disabled{
+  cursor: not-allowed;
+  background-color: rgba(240, 128, 128, 0.80);
+}
+
+.loginPageRegisterButton{
+  position: absolute;
+  top: 70px;
+  right: 30px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.errorMsg{
+  color: red;
+  margin-top: 1rem;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}

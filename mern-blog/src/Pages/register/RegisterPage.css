@@ -1,0 +1,72 @@
+.registerPage{
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, rgba(0,0,0,0.1), rgba(0,0,0,0.1)),  url('https://images.pexels.com/photos/1470162/pexels-photo-1470162.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat no-repeat center center/cover;
+}
+
+.registerPageTitle{
+  font-size: 50px;
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
+
+.registerPageForm{
+  margin-top: 20px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.registerPageForm > label{
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+.registerPageInput{
+  padding: 15px 10px ;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.registerPageButton{
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.registerPageLoginButton{
+  position: absolute;
+  top: 70px;
+  right: 30px;
+  cursor: pointer;
+  border: none;
+  padding: 15px;
+  background-color: lightcoral;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.errorMsg{
+  color: red;
+  margin-top: 1rem;
+  backdrop-filter: blur(10px);
+}

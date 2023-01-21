@@ -1,0 +1,23 @@
+.posts{
+  flex: 9;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding-top: 40px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  border-radius: 2rem;
+  position: relative;
+}
+.posts::before{
+  content: "New Post's";
+  position: absolute;
+  width: 100%;
+  top: -45px;
+  font-size: 60px;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: center;
+}
