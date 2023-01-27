@@ -8,6 +8,7 @@ const postRoute = require('./routes/posts');
 const categoryRoute = require('./routes/categories');
 const multer = require('multer');
 const path = require('path');
+const port = process.env.PORT || 5000;
 
 // donenv file connection
 dotenv.config();
@@ -19,7 +20,9 @@ app.use("/images", express.static(path.join(__dirname, "/images")))
 // mongoose sever connection with mongo db atlas
 mongoose.set('strictQuery', true);
 mongoose.connect(process.env.MONGO_URL, {
-}).then(console.log("Connected to mongoose atlas")).catch((err) => console.log(err));
+}).then(
+  // console.log("Connected to mongoose atlas")
+).catch((err) => console.log(err));
 
 // 
 const storage = multer.diskStorage({
@@ -43,6 +46,6 @@ app.use('/api/posts', postRoute);
 app.use('/api/categories', categoryRoute);
 
 // express server creating
-app.listen('5000', () => {
-  console.log("backend is running");
+app.listen(port, () => {
+  // console.log("backend is running");
 })

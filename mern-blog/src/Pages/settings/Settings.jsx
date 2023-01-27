@@ -75,11 +75,11 @@ const handleDelete = async () => {
           <input type="file" id="fileInputPic" style={{display : "none"}} onChange={e=> setFile(e.target.files[0])}/>
         </div>
         <label>Username</label>
-          <input type="text" id="userName" placeholder={user.username} onChange={(e) => setUsername(e.target.value)} required/>
+          <input type="text" id="userName" placeholder={user.username} onChange={(e) => setUsername(e.target.value)} disabled/>
           <label>Email</label>
-          <input type="email" id="userEmail" placeholder={user.email} onChange={(e) => setEmail(e.target.value)} required/>
+          <input type="email" id="userEmail" placeholder={user.email} onChange={(e) => setEmail(e.target.value)} />
           <label>New Password</label>
-          <input type="password" id="userPassword" onChange={(e) => setPassword(e.target.value)} required/>
+          <input type="password" id="userPassword" onChange={(e) => setPassword(e.target.value)}/>
           <button className="settingsSubmit" type='submit'>Update</button>
           {success && (
             <span className='settingsUpdate'>Profile updated succefully...</span>

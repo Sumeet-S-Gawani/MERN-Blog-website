@@ -27,8 +27,7 @@ const Sidebar = () => {
           alt="profile"
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-          eveniet, pariatur neque aliquam exercitationem dolore. Consequuntur.
+        I am Sumeet S Gawani, a Full-Stack Web Developer with experience in C, Python, HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, REST API and CSS and JavaScript frameworks. I am seeking new challenges and opportunities in my coding career.
         </p>
       </div>
         {/* <span className="sidebarTitle">CATEGORIES</span> */}
